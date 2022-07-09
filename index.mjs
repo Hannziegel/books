@@ -1,7 +1,8 @@
-import Book from './modules/Book';
-import Books from './modules/Books';
-import showSection from './modules/Sections';
-import { DateTime } from './modules/luxon';
+/* eslint-disable */
+import Book from './modules/Book.js';
+import Books from './modules/Books.js';
+import showSection from './modules/Sections.js';
+import { DateTime } from './modules/luxon.js';
 
 /* ----------========== DECLARATIONS ==========---------- */
 // global declarations
