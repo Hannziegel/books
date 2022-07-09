@@ -1,7 +1,7 @@
-import Book from './modules/Book.js';
-import Books from './modules/Books.js';
-import showSection from './modules/Sections.js';
-import { DateTime } from './modules/luxon.js';
+import Book from './modules/Book';
+import Books from './modules/Books';
+import showSection from './modules/Sections';
+import { DateTime } from './modules/luxon';
 
 /* ----------========== DECLARATIONS ==========---------- */
 // global declarations
