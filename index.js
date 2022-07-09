@@ -66,8 +66,8 @@ const createBooksListHtml = () => {
   });
 };
 
-// Add data
-document.getElementById('date').textContent = Date();
+// Add date time
+document.getElementById('date').textContent = DateTime.now();
 
 /* ----------========== WHEN PAGE IS LOAD PAGE GET LOCALSTORAGE ==========---------- */
 
