@@ -1,68 +1,68 @@
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700&display=swap");
 
 :root {
-   /* --== Paddings ==-- */
-   --containerPadding: 8px 5vw;
+  /* --== Paddings ==-- */
+  --containerPadding: 8px 5vw;
 
-   /* --== Typography ==-- */
+  /* --== Typography ==-- */
 
-   /* Font Family */
-   --font-family: 'Comic Neue', sans-serif;
+  /* Font Family */
+  --font-family: 'Comic Neue', sans-serif;
 
-   /* Font sizes */
-   --font-size: 1rem;
+  /* Font sizes */
+  --font-size: 1rem;
 
-   /* Font Weight */
-   --font-weight: 700;
+  /* Font Weight */
+  --font-weight: 700;
 
-   /* --== Color Pallet ==-- */
-   --color-dark: black;
-   --color-gray: rgb(156, 147, 147);
-   --color-light: rgba(230, 230, 230, 0.795);
-   --color-white: #fff;
+  /* --== Color Pallet ==-- */
+  --color-dark: black;
+  --color-gray: rgb(156, 147, 147);
+  --color-light: rgba(230, 230, 230, 0.795);
+  --color-white: #fff;
 }
 
 /* ----------========== GLOBAL ==========---------- */
 
 * {
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   font-family: var(--font-family);
-   font-size: var(--font-size);
-   font-weight: var(--font-weight);
-   text-decoration: none;
-   color: black;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  text-decoration: none;
+  color: black;
 }
 
 html {
-   background-color: var(--color-light);
+  background-color: var(--color-light);
 }
 
 h1 {
-   font-size: larger;
+  font-size: larger;
 }
 
 h2 {
-   padding: 24px 0;
-   font-size: 2rem;
+  padding: 24px 0;
+  font-size: 2rem;
 }
 
 ul li {
-   list-style: none;
+  list-style: none;
 }
 
 button {
-   padding: 3px;
-   border: 1px solid black;
-   align-self: flex-end;
-   box-shadow: 5px 5px black;
-   transition-duration: 0.1s;
+  padding: 3px;
+  border: 1px solid black;
+  align-self: flex-end;
+  box-shadow: 5px 5px black;
+  transition-duration: 0.1s;
 }
 
 button:hover {
-   transform: translate(5px, 5px);
-   box-shadow: none;
+  transform: translate(5px, 5px);
+  box-shadow: none;
 }
 
 button:active {
@@ -72,86 +72,86 @@ button:active {
 }
 
 .flexColumn {
-   display: flex;
-   flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 /* ----------========== HEADER ==========---------- */
 
 header {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   width: 100vw;
-   padding: var(--containerPadding);
-   border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  padding: var(--containerPadding);
+  border-bottom: 1px solid black;
 }
 
 header ul {
-   display: flex;
-   gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 header ul li {
-   border-left: 1px solid black;
-   padding: 10px;
-   cursor: pointer;
+  border-left: 1px solid black;
+  padding: 10px;
+  cursor: pointer;
 }
 
 header .icon {
-   cursor: pointer;
+  cursor: pointer;
 }
 
 /* ----------========== MAIN ==========---------- */
 
 main {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   padding: var(--containerPadding);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--containerPadding);
 }
 
 /* --== Books ==-- */
 
 .books {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   width: 100%;
-   margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
 }
 
 .books .booksContainer {
-   outline: 3px solid black;
-   width: 100%;
+  outline: 3px solid black;
+  width: 100%;
 }
 
 .booksContainer article {
-   width: 100%;
-   display: flex;
-   justify-content: flex-start;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .booksContainer :nth-child(even) {
-   background-color: var(--color-white);
+  background-color: var(--color-white);
 }
 
 .book {
-   display: flex;
-   gap: 12px;
-   width: 100%;
-   padding: 10px;
-   align-items: center;
-   justify-content: space-between;
+  display: flex;
+  gap: 12px;
+  width: 100%;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .book button {
-   justify-self: flex-end;
+  justify-self: flex-end;
 }
 
 .book :nth-child(even) {
-   background-color: transparent;
+  background-color: transparent;
 }
 
 .bookInfoContainer {
@@ -162,53 +162,53 @@ main {
 /* --== Add new book ==-- */
 
 .addBook ul {
-   display: flex;
-   flex-direction: column;
-   gap: 24px;
-   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
 }
 
 .addBook ul li input {
-   padding: 10px;
-   width: 100%;
+  padding: 10px;
+  width: 100%;
 }
 
 .addBook button {
-   padding: 5px 10px;
+  padding: 5px 10px;
 }
 
 /* --== contact ==-- */
 
 .contact {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   gap: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
 }
 
 /* ----------========== FOOTER ==========---------- */
 
 footer {
-   position: absolute;
-   width: 100vw;
-   bottom: 20px;
-   padding: var(--containerPadding);
-   border-top: 1px solid black;
+  position: absolute;
+  width: 100vw;
+  bottom: 20px;
+  padding: var(--containerPadding);
+  border-top: 1px solid black;
 }
 
 /* ----------========== IDs ==========---------- */
 
 .hide {
-   display: none;
-   visibility: hidden;
+  display: none;
+  visibility: hidden;
 }
 
 /* ----------========== IDs ==========---------- */
 
 #date {
-   position: absolute;
-   top: 70px;
-   right: 10px;
-   text-align: right;
-   font-size: smaller;
+  position: absolute;
+  top: 70px;
+  right: 10px;
+  text-align: right;
+  font-size: smaller;
 }

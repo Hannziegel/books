@@ -7,5 +7,7 @@ export default class Books {
 
   addBook = (book) => this.books.push(book);
 
-  removeBook = (bookTitle) => { this.books = this.books.filter((book) => book.title !== bookTitle); }
+  removeBook = (bookTitle) => {
+    this.books = this.books.filter((book) => book.title !== bookTitle);
+  };
 }

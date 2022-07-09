@@ -56,7 +56,7 @@ const createBookHtml = (title, author) => {
   booksSection.appendChild(bookCard);
   bookCard.append(bookCardUl, bookCardLine);
   bookCardUl.append(bookInfoContainer, bookRemoveButton);
-  bookInfoContainer.append(bookTitle, bookAuthor)
+  bookInfoContainer.append(bookTitle, bookAuthor);
 };
 
 // creates all books on html
