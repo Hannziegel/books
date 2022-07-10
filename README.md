@@ -4,6 +4,7 @@
 
 Awesome books with ES6
 > Basic website that allows users to add/remove books from a list using Javascript ES6.
+> Feel free to see the live version, if you like it please give it a star! 
 
 ## Built With
 
