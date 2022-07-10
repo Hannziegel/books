@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="./index.css">
+    <script defer type="module" src="./index.mjs"></script>
+</head>
+<body>
+    <header>
+        <a class="icon" href="#">
+            <h1>Awesome Books</h1>
+        </a>
+        <nav>
+            <ul>
+                <li id="listLink">List</li>
+                <li id="addBookLink">Add new</li>
+                <li id="contactLink">Contact us</li>
+            </ul>
+        </nav>
+        <span id="date"></span>
+    </header>
+    <main>
+        <section class="books" id="booksSection">
+            <h2>All awesome books</h2>
+            <div class="booksContainer" id="booksContainer">
+
+            </div>
+        </section>
+
+        <section class="addBook hide" id="addBookSection">
+            <h2>Add awesome book</h2>
+            <ul>
+                <li>
+                    <input type="text" placeholder="Title" id="titleInput">
+                </li>
+                <li>
+                    <input type="text" placeholder="Author" id="authorInput">
+                </li>
+                <button id="addBookButton"> Add </button>
+            </ul>
+        </section>
+
+        <section class="contact hide" id="contactSection">
+            <h2>Contact Information</h2>
+            <p>Do you have any questions or you just want to say Hello? You can reach out to us!</p>
+            <ul>
+                <li>
+                  Our email :
+                  <a href="mailto:romina.pati@gmail.com">romina.pati@gmail.com</a>.
+                  <a href="mailto:hannziegel@gmail.com">hannziegel@gmail.com</a>.
+                </li>
+                <li>Our phone number <a href="tel:">+9 999 9999999</a>.</li>
+                <li>Our address: Main St 1234, 54321 City, Country.</li>
+              </ul>
+        </section>
+    </main>
+
+    <footer>
+        <span>Copyright © 2022 Rodrigo Johann Reckziegel Nunes & Romina Patiño</span>
+    </footer>
+</body>
+</html>
